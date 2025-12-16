@@ -16,5 +16,5 @@ urlpatterns = [
     path('founders/', FounderListView.as_view(), name='founders-list'),
     path('team/', TeamMemberListView.as_view(), name='team-list'),
     path('logos/', LogoListView.as_view(), name='logos-list'),
-    path('site-settings/', SiteSettingsListView.as_view(), name='site-settings-list'),
+    path('site/', SiteSettingsListView.as_view(), name='site-settings-list'),
 ]
